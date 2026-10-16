@@ -1,0 +1,7 @@
+model_A,model_B,A_right_B_wrong,A_wrong_B_right,p_value,significant_0.05
+RandomForest,XGBoost,14,33,0.0079,True
+RandomForest,SoftVoting,7,26,0.0013,True
+RandomForest,Stacking,7,24,0.0033,True
+XGBoost,SoftVoting,12,12,1.0,False
+XGBoost,Stacking,13,11,0.8388,False
+SoftVoting,Stacking,2,0,0.5,False
